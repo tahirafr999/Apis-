@@ -5,7 +5,7 @@ $client_id = '8K6qlfebKl77kAmGFMGM97qHuBiNQkyS';
 $client_secret = 'Wt8qoUP9NlbzxoocOeCf3iYn0FvuTYpN8m5VbTE0qpZ9ikNbMdxs6ycEH75uWmad';
 $redirect_uri = 'http://localhost:8080/';
 $metadata_url = 'https://*.okta.com/oauth2/default/.well-known/openid-configuration';
-
+// check just
 
 
 if(isset($_GET['logout'])) {
