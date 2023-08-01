@@ -85,6 +85,10 @@ if(!isset($_GET['code'])) {
 
 // Base64-urlencoding is a simple variation on base64-encoding
 // Instead of +/ we use -_, and the trailing = are removed.
+
+// Base64-urlencoding is a simple variation on base64-encoding
+// Instead of +/ we use -_, and the trailing = are removed.// Base64-urlencoding is a simple variation on base64-encoding
+// Instead of +/ we use -_, and the trailing = are removed.
 function base64_urlencode($string) {
   return rtrim(strtr(base64_encode($string), '+/', '-_'), '=');
 }
